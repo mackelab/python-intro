@@ -5,7 +5,7 @@ This repository collects some materials for visitors and new members of the lab 
 ## What you will find here
 
 A series of Jupyter notebooks introducing Python and machine learning
-  - Python 101: Super basic introduction to basic Python.
+  - Python 101: Super basic introduction to Python.
   - Data Analysis 101: An introduction to Numpy, Scipy and Matplotlib. If you have some basic programming experience, especially in Python, you should probably start here.
   - Python 102: Some slightly more advanced techniques that crop up in virtually every real application. (In progress.)
   - Machine Learning 101: [ **TODO** ] (Might be combined with Neural networks 101.)
