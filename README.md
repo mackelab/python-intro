@@ -4,8 +4,12 @@ This repository collects some materials for visitors and new members of the lab 
 
 ## What you will find here
 
-  - Python 101: A Jupyter notebook introducing basic Pyton usage.
-  - Neural networks 101: [ *TODO* ]
+A series of Jupyter notebooks introducing Python and machine learning
+  - Python 101: Super basic introduction to basic Python.
+  - Data Analysis 101: An introduction to Numpy, Scipy and Matplotlib. If you have some basic programming experience, especially in Python, you should probably start here.
+  - Python 102: Some slightly more advanced techniques that crop up in virtually every real application. (In progress.)
+  - Machine Learning 101: [ **TODO** ] (Might be combined with Neural networks 101.)
+  - Neural networks 101: [ **TODO** ]
 
 ## What you will need
 
@@ -37,12 +41,18 @@ If you are on Ubuntu,
 
 ### Instructions for OS X
 
-Anaconda? [ *TODO* ]
+Anaconda? [ **TODO** ]
 
 ### Instructions for Windows
 
-Anaconda [ *TODO* ]
-  
+Anaconda [ **TODO** ]
+
+## Acknowledgements
+
+This set of materials was put together by relying heavily on similar works by
+  - [Rick Muller](http://nbviewer.jupyter.org/gist/rpmuller/5920182#ii.-numpy-and-scipy)
+  - [ **TODO** ]
+
 ## External references
 
 Based on a list compiled by [Rick Muller](http://nbviewer.jupyter.org/gist/rpmuller/5920182#ii.-numpy-and-scipy)
