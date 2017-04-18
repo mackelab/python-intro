@@ -39,13 +39,23 @@ If you are on Ubuntu,
     #apt-get install (Jupyter?)
 
 
+### Installing using Anaconda
+It's also possible to install the Anaconda distributing, which includes everything you need (Python + all the packages mentioned above). The package versions in Anaconda tend to lag a little behind since they do their own packaging, but as long as you don't need the absolute newest versions, this is perfectly fine. Follow the instructions from here: https://docs.continuum.io/anaconda/install-linux.html.
+
 ### Instructions for OS X
 
-Anaconda? [ **TODO** ]
+For the most pain-free installation, go with the Anaconda distribution. The installation instructions are here: [https://docs.continuum.io/anaconda/install-macos.html](https://docs.continuum.io/anaconda/install-macos.html).
+
+You can also install through homebrew, if you need the most recent versions.
 
 ### Instructions for Windows
 
-Anaconda [ **TODO** ]
+Compiling your own software is notoriously non-trivial on Windows, so unless you have a good reason not to, go with the Anaconda. Instructions are found here: [https://docs.continuum.io/anaconda/install-windows.html](https://docs.continuum.io/anaconda/install-windows.html).
+
+### Installing using Anaconda
+
+
+conda install -c anaconda scipy
 
 ## Acknowledgements
 
