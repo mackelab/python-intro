@@ -9,7 +9,7 @@ A series of Jupyter notebooks introducing Python and machine learning
   - Data Analysis 101: An introduction to Numpy, Scipy and Matplotlib. If you have some basic programming experience, especially in Python, you should probably start here.
   - Python 102: Some slightly more advanced techniques that crop up in virtually every real application. (In progress.)
   - Machine Learning 101: [ **TODO** ] (Might be combined with Neural networks 101.)
-  - Neural networks 101: [ **TODO** ]
+  - Neural Networks 101: A practical introduction to neural networks for classification. In this tutorial you build a 3-layer neural network, and experiment with different sizes for the hidden layer.
 
 ## What you will need
 
@@ -29,6 +29,7 @@ If this works, it's preferable.
     pip install --user scipy
     pip install --user matplotlib
     pip install --user jupyter
+    pip install --user scikit-learn
 
 
 #### Installing from the package manager.
@@ -37,6 +38,7 @@ If you are on Ubuntu,
     apt-get install python3-scipy
     apt-get install python3-matplotlib  #(is this included in scipy?)
     #apt-get install (Jupyter?)
+    pip install --user scikit-learn
 
 
 ### Installing using Anaconda
@@ -52,10 +54,11 @@ You can also install through homebrew, if you need the most recent versions.
 
 Compiling your own software is notoriously non-trivial on Windows, so unless you have a good reason not to, go with the Anaconda. Instructions are found here: [https://docs.continuum.io/anaconda/install-windows.html](https://docs.continuum.io/anaconda/install-windows.html).
 
-### Installing using Anaconda
+### After installing Anaconda
 
+After installing Anaconda, you may want to install [scikit-learn](http://scikit-learn.org) package to run some of the examples in the [Data Analysis 101](Data%20Analysis%20101.ipynb).
 
-conda install -c anaconda scipy
+    conda install scikit-learn
 
 ## Acknowledgements
 
