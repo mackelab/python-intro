@@ -48,7 +48,7 @@ It's also possible to install the Anaconda distributing, which includes everythi
 
 For the most pain-free installation, go with the Anaconda distribution. The installation instructions are here: [https://docs.continuum.io/anaconda/install-macos.html](https://docs.continuum.io/anaconda/install-macos.html).
 
-You can also install through homebrew, if you need the most recent versions.
+You can also install through [Homebrew](https://www.scipy.org/install.html#homebrew), if you need the most recent versions.
 
 ### Instructions for Windows
 
@@ -64,35 +64,29 @@ After installing Anaconda, you may want to install [scikit-learn](http://scikit-
 
 This set of materials was put together by relying heavily on similar works by
   - [Rick Muller](http://nbviewer.jupyter.org/gist/rpmuller/5920182#ii.-numpy-and-scipy)
-  - [ **TODO** ]
+  - [Denny Britz](https://github.com/dennybritz/nn-from-scratch/blob/master/nn-from-scratch.ipynb)
 
 ## External references
 
 Based on a list compiled by [Rick Muller](http://nbviewer.jupyter.org/gist/rpmuller/5920182#ii.-numpy-and-scipy)
-[ **TODO** Check the links and update where necessary ]
 
 ### Learning Resources
-* [Official Python Documentation](http://docs.python.org/2.7), including
-    - [Python Tutorial](http://docs.python.org/2.7/tutorial)
-    - [Python Language Reference](http://docs.python.org/2.7/reference)
-* If you're interested in Python 3, the [Official Python 3 Docs are here](http://docs.python.org/3/).
+* [Official Python Documentation](http://docs.python.org/3), including
+    - [Python Tutorial](http://docs.python.org/3/tutorial)
+    - [Python Language Reference](http://docs.python.org/3/reference)
 * [IPython tutorial](http://ipython.org/ipython-doc/dev/interactive/tutorial.html).
-* [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
-* [Dive Into Python](http://www.diveintopython.net/), in particular if you're interested in Python 3.
+* [Learn Python The Hard Way](http://learnpythonthehardway.org/book/).
+  If you want to invest the time to learn good all-around programming in Python, and not just writing quick data analysis scripts, this is one of the best resources.
+* [How to Think Like a Computer Scientist: Learning with Python](http://openbookproject.net/thinkcs/) A more classic text for learning Python. Make sure to read the Python 3 version.
+* [Python Module of the Week](http://pymotw.com/3/) is a series going through in-depth analysis of the Python standard library in a very easy to understand way.
 * [Invent With Python](http://inventwithpython.com/), probably best for kids.
-* [Python Functional Programming HOWTO](http://docs.python.org/2/howto/functional.html)
-* [The Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp/full-text/book/book.html), written in Scheme, a Lisp dialect, but one of the best books on computer programming ever written.
-* [Generator Tricks for Systems Programmers](http://www.dabeaz.com/generators/) Beazley's slides on just what generators can do for you.
-* [Python Module of the Week](http://pymotw.com/2/contents.html) is a series going through in-depth analysis of the Python standard library in a very easy to understand way.
+* [Python Functional Programming HOWTO](http://docs.python.org/3/howto/functional.html)
+* [The Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp/full-text/book/book.html), will deepen your understanding of general programming principles. There is no Python in this book (the examples are written in Scheme, a Lisp dialect).
 
 ### Badass IPython Notebooks
-* Rob Johansson's [excellent notebooks](http://jrjohansson.github.io/), including [Scientific Computing with Python](https://github.com/jrjohansson/scientific-python-lectures) and [Computational Quantum Physics with QuTiP](https://github.com/jrjohansson/qutip-lectures) lectures;
+* [A gallery of interesting IPython Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
+* Each chapter of Rob Johansson's [Numerical Python](http://jrjohansson.github.io/numericalpython.html) can be downloaded as a notebook. Note that these use Python 2.
 * [XKCD style graphs in matplotlib](http://nbviewer.ipython.org/url/jakevdp.github.com/downloads/notebooks/XKCD_plots.ipynb);
-* [A collection of Notebooks for using IPython effectively](https://github.com/ipython/ipython/tree/master/examples/notebooks#a-collection-of-notebooks-for-using-ipython-effectively)
-* [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
-* [Cross-disciplinary computational analysis IPython Notebooks From Hadoop World 2012](https://github.com/invisibleroads/crosscompute-tutorials)
-* [Quantites](http://nbviewer.ipython.org/urls/raw.github.com/tbekolay/pyconca2012/master/QuantitiesTutorial.ipynb) Units in Python.
-    - [Another units module is here](http://www.southampton.ac.uk/~fangohr/blog/)
 
 ### Packages for Scientists
 Important libraries
@@ -113,5 +107,4 @@ Other packages of interest
 
 
 ### Cool Stuff
-* [Moin Moin](http://moinmo.in/), a wiki written in Python
 * [Project Euler](http://projecteuler.net/), programming problems that would (?) have interested Euler. Python is one of the most commonly used languages there.
