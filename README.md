@@ -8,6 +8,7 @@ A series of Jupyter notebooks introducing Python and machine learning
   - Python 101: Super basic introduction to Python.
   - Data Analysis 101: An introduction to Numpy, Scipy and Matplotlib. If you have some basic programming experience, especially in Python, you should probably start here.
   - Python 102: Some slightly more advanced techniques that crop up in virtually every real application. (In progress.)
+  - Regression - Orientation tuning: An introduction to least-squares fitting, using orientation tuning as an example.
   - Machine Learning 101: [ **TODO** ] (Might be combined with Neural networks 101.)
   - Neural Networks 101: A practical introduction to neural networks for classification. In this tutorial you build a 3-layer neural network, and experiment with different sizes for the hidden layer.
 
